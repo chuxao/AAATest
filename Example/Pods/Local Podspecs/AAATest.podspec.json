@@ -1,9 +1,9 @@
 {
   "name": "AAATest",
   "version": "0.1.0",
-  "summary": "A short description of AAATest.",
+  "summary": "This is an md5 encryption tool.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1727370803/AAATest",
+  "homepage": "https://github.com/xaochua/AAATest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "1727370803": "xchu@i9i8.com"
   },
   "source": {
-    "git": "https://github.com/1727370803/AAATest.git",
+    "git": "https://github.com/xaochua/AAATest.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		056D72BE9FF8E6FD30322F55A8B1F882 /* Pods-AAATest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F87561A4C3B4DAB5E227AF125D350121 /* Pods-AAATest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32CB2386BDF5142486DC4B9349582A02 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 555C2C00AD4081C66F4AB5231572CD21 /* ReplaceMe.m */; };
-		508E388746BCD69F22B93282C49A9F8C /* AAATest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE54E0F1CEB6734419D08A6278591EA /* AAATest-dummy.m */; };
 		6A64AA970915AA2F0ED1AC751327C5DC /* Pods-AAATest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0B17F3A3E94C9ACF8364CC9E6607D /* Pods-AAATest_Tests-dummy.m */; };
-		7C879816C4A8836131A62573351D973E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7282BD897E9DE521F2A16C93C2ABCF99 /* AAATest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 889AAAD976DEDDA8843D94A6D09504C3 /* AAATest-dummy.m */; };
 		835E1BC3DF8D21048F080B2EEB4CBC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		985B4DB703A86C0C891972BC356BA3F1 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC489F6E85DF5E578F9B85C70B89EF /* NSString+MD5.m */; };
 		A2D6BB051E963A1E08A196067E2FA724 /* Pods-AAATest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E53E232F007C6A70E46ED30917227794 /* Pods-AAATest_Example-dummy.m */; };
+		C0D47BB497F671FD73D2DAC3A4DE0436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C3D898400E34BB387D25ACC2D94EB000 /* Pods-AAATest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D056C7EB0EE8DC6DAF78D6E1A6E0B004 /* Pods-AAATest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4093CEDA87297CA31120B38177FA63D /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B51F831BC44315268DE4078BE17FE5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9C12ABFB40CDA5FA538B89BD8310713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D9EF69FD19684C50904D5FC23E566395 /* AAATest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B00BA0F32DB210E5EBDF4BF21AF3AAF /* AAATest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E892D6A0187FDFD55D0FC898903C43F3 /* AAATest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A168E9A8BD444FA6410613393BA509A4 /* AAATest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +39,14 @@
 
 /* Begin PBXFileReference section */
 		0A98530B3DC6F6F7FB8EC9EC2541461A /* Pods-AAATest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAATest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D5D722E919B8883F725EB8C798F5C22 /* AAATest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AAATest-Info.plist"; sourceTree = "<group>"; };
 		0ECB2B53D23AB2BBECF959A0DFAAB171 /* Pods-AAATest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAATest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		17C6CE432E71F59D8C55A6AA9E8EB58F /* AAATest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AAATest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		19E6962C8A8DF4A430B99E0FD4A9939B /* Pods-AAATest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAATest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1ACCDB414F8A202DB5E24D058EC85A8D /* AAATest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAATest.xcconfig; sourceTree = "<group>"; };
+		252397948BBA636C738C566AF826D6EB /* AAATest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAATest.xcconfig; sourceTree = "<group>"; };
 		2A592D86BC4C3A7B21605E1153625655 /* Pods-AAATest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AAATest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E4B96779EB4089D0802A31DD1DB435E /* Pods_AAATest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AAATest_Tests.framework; path = "Pods-AAATest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED0B17F3A3E94C9ACF8364CC9E6607D /* Pods-AAATest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AAATest_Tests-dummy.m"; sourceTree = "<group>"; };
-		555C2C00AD4081C66F4AB5231572CD21 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AAATest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5B1CC99076AE4972F607672C4492987F /* AAATest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AAATest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62988400BE93F08EE1911DE5764433BE /* Pods-AAATest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AAATest_Tests.modulemap"; sourceTree = "<group>"; };
 		64C4CC3FCFBE2522934A77701D7D8C50 /* Pods-AAATest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAATest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71B113E7950811E91E70879EEC8E89AB /* Pods-AAATest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAATest_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -56,18 +55,21 @@
 		796DC0BEE83F396A5D56056F579DF951 /* Pods-AAATest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAATest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79EF9606749D2F5186D93852ECCC1026 /* AAATest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AAATest.framework; path = AAATest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85479AD5108FD7BCC742E66226B5342A /* Pods-AAATest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAATest_Example-Info.plist"; sourceTree = "<group>"; };
+		889AAAD976DEDDA8843D94A6D09504C3 /* AAATest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAATest-dummy.m"; sourceTree = "<group>"; };
 		8E812C211559F9102D8C80CBA91233CC /* Pods-AAATest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAATest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F2A8CD28E2AEBE5C45B507D7430646B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		966C29074C1107DC097A93286098711D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9B00BA0F32DB210E5EBDF4BF21AF3AAF /* AAATest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAATest-umbrella.h"; sourceTree = "<group>"; };
-		9C75BC7F3AA3685019D42D16AC4C4DCE /* AAATest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AAATest.modulemap; sourceTree = "<group>"; };
+		94D5C12A2EE272497204BCC4F131C694 /* AAATest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AAATest.modulemap; sourceTree = "<group>"; };
+		9CEC489F6E85DF5E578F9B85C70B89EF /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "AAATest/Classes/NSString+MD5.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9867B0848973675EAA14714BDB468AF /* AAATest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAATest-prefix.pch"; sourceTree = "<group>"; };
-		CBE54E0F1CEB6734419D08A6278591EA /* AAATest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAATest-dummy.m"; sourceTree = "<group>"; };
+		A168E9A8BD444FA6410613393BA509A4 /* AAATest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAATest-umbrella.h"; sourceTree = "<group>"; };
+		A5B51F831BC44315268DE4078BE17FE5 /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "AAATest/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
+		C962C2E258B75DC1F2C66B614229442E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBAD3C174C2CFDFDFBE0CFF2E97CBCCB /* AAATest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AAATest-Info.plist"; sourceTree = "<group>"; };
 		D056C7EB0EE8DC6DAF78D6E1A6E0B004 /* Pods-AAATest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AAATest_Example-umbrella.h"; sourceTree = "<group>"; };
 		D59D7497A336FB0ABDF4C7CBA003CC02 /* Pods-AAATest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AAATest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DD6B7D56C7A03D28669AC88DD9518788 /* Pods-AAATest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAATest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E53E232F007C6A70E46ED30917227794 /* Pods-AAATest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AAATest_Example-dummy.m"; sourceTree = "<group>"; };
+		EA96A1AB139DDA576AA1842F5B451FEA /* AAATest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAATest-prefix.pch"; sourceTree = "<group>"; };
+		EE5142327B264055D7050C7296712B23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F87561A4C3B4DAB5E227AF125D350121 /* Pods-AAATest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AAATest_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,11 +82,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B18EB45AA74AB6FDC42A43115758D932 /* Frameworks */ = {
+		843BB54E89C8C7F63915947596B8379B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C879816C4A8836131A62573351D973E /* Foundation.framework in Frameworks */,
+				C0D47BB497F671FD73D2DAC3A4DE0436 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06402284DC008B2D6F76D28CC60E0C18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D5C12A2EE272497204BCC4F131C694 /* AAATest.modulemap */,
+				252397948BBA636C738C566AF826D6EB /* AAATest.xcconfig */,
+				889AAAD976DEDDA8843D94A6D09504C3 /* AAATest-dummy.m */,
+				CBAD3C174C2CFDFDFBE0CFF2E97CBCCB /* AAATest-Info.plist */,
+				EA96A1AB139DDA576AA1842F5B451FEA /* AAATest-prefix.pch */,
+				A168E9A8BD444FA6410613393BA509A4 /* AAATest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AAATest";
+			sourceTree = "<group>";
+		};
 		17AF0ABD9FC169C121A6FDEE91DFB577 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,36 +142,34 @@
 			path = "Target Support Files/Pods-AAATest_Example";
 			sourceTree = "<group>";
 		};
-		81EC9CB1789F763FB4BDCEA88EB67E1B /* Development Pods */ = {
+		533D02D4AF5194FD703FCE8C6A8E4FDB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E8ADCF04FD61361B8FE4E2B5AA563D74 /* AAATest */,
+				5B1CC99076AE4972F607672C4492987F /* AAATest.podspec */,
+				EE5142327B264055D7050C7296712B23 /* LICENSE */,
+				C962C2E258B75DC1F2C66B614229442E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5501B10110B00BDD1C8AC8CD8E3C86E7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8101FFE6EF75BE5512585594A57D851C /* AAATest */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8DECC4B97F7D9A6CEACB6B4434DC1E5F /* Support Files */ = {
+		8101FFE6EF75BE5512585594A57D851C /* AAATest */ = {
 			isa = PBXGroup;
 			children = (
-				9C75BC7F3AA3685019D42D16AC4C4DCE /* AAATest.modulemap */,
-				1ACCDB414F8A202DB5E24D058EC85A8D /* AAATest.xcconfig */,
-				CBE54E0F1CEB6734419D08A6278591EA /* AAATest-dummy.m */,
-				0D5D722E919B8883F725EB8C798F5C22 /* AAATest-Info.plist */,
-				A9867B0848973675EAA14714BDB468AF /* AAATest-prefix.pch */,
-				9B00BA0F32DB210E5EBDF4BF21AF3AAF /* AAATest-umbrella.h */,
+				A5B51F831BC44315268DE4078BE17FE5 /* NSString+MD5.h */,
+				9CEC489F6E85DF5E578F9B85C70B89EF /* NSString+MD5.m */,
+				533D02D4AF5194FD703FCE8C6A8E4FDB /* Pod */,
+				06402284DC008B2D6F76D28CC60E0C18 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AAATest";
-			sourceTree = "<group>";
-		};
-		A9AA4CB0FFB7A70EF4F914E6A3AD68EB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				17C6CE432E71F59D8C55A6AA9E8EB58F /* AAATest.podspec */,
-				8F2A8CD28E2AEBE5C45B507D7430646B /* LICENSE */,
-				966C29074C1107DC097A93286098711D /* README.md */,
-			);
-			name = Pod;
+			name = AAATest;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -170,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				81EC9CB1789F763FB4BDCEA88EB67E1B /* Development Pods */,
+				5501B10110B00BDD1C8AC8CD8E3C86E7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				17AF0ABD9FC169C121A6FDEE91DFB577 /* Products */,
 				F7A047E2CC7F1A487EE01B2543FE398F /* Targets Support Files */,
@@ -201,17 +215,6 @@
 			path = "Target Support Files/Pods-AAATest_Tests";
 			sourceTree = "<group>";
 		};
-		E8ADCF04FD61361B8FE4E2B5AA563D74 /* AAATest */ = {
-			isa = PBXGroup;
-			children = (
-				555C2C00AD4081C66F4AB5231572CD21 /* ReplaceMe.m */,
-				A9AA4CB0FFB7A70EF4F914E6A3AD68EB /* Pod */,
-				8DECC4B97F7D9A6CEACB6B4434DC1E5F /* Support Files */,
-			);
-			name = AAATest;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		F7A047E2CC7F1A487EE01B2543FE398F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,11 +243,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69032C9787E22C8CD9C42AA0C9C9E99F /* Headers */ = {
+		729C4DFBFA8BD86982113F03AD2D0DF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9EF69FD19684C50904D5FC23E566395 /* AAATest-umbrella.h in Headers */,
+				E892D6A0187FDFD55D0FC898903C43F3 /* AAATest-umbrella.h in Headers */,
+				C4093CEDA87297CA31120B38177FA63D /* NSString+MD5.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +295,12 @@
 		};
 		E9199C33271B4BEA483D403FF25DBC96 /* AAATest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EB99CC8470F6552E0559A2B7788CA40 /* Build configuration list for PBXNativeTarget "AAATest" */;
+			buildConfigurationList = 1F9B8395864AB5528C12DD75697619A9 /* Build configuration list for PBXNativeTarget "AAATest" */;
 			buildPhases = (
-				69032C9787E22C8CD9C42AA0C9C9E99F /* Headers */,
-				E792B68958CAEBEB38F127794CA59DA3 /* Sources */,
-				B18EB45AA74AB6FDC42A43115758D932 /* Frameworks */,
-				C32E9F712476F6CABE3EB3082FE3CBAD /* Resources */,
+				729C4DFBFA8BD86982113F03AD2D0DF3 /* Headers */,
+				4D2606B300B9B0D45BBFB81478669243 /* Sources */,
+				843BB54E89C8C7F63915947596B8379B /* Frameworks */,
+				9570B9ADC15D5486D18CE74BE0535B25 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -351,7 +355,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C32E9F712476F6CABE3EB3082FE3CBAD /* Resources */ = {
+		9570B9ADC15D5486D18CE74BE0535B25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +365,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D2606B300B9B0D45BBFB81478669243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7282BD897E9DE521F2A16C93C2ABCF99 /* AAATest-dummy.m in Sources */,
+				985B4DB703A86C0C891972BC356BA3F1 /* NSString+MD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AF34C4279220F34D6046F3030BA907F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,15 +387,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A64AA970915AA2F0ED1AC751327C5DC /* Pods-AAATest_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E792B68958CAEBEB38F127794CA59DA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				508E388746BCD69F22B93282C49A9F8C /* AAATest-dummy.m in Sources */,
-				32CB2386BDF5142486DC4B9349582A02 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +408,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02257311DB3ACB504783095A07B2B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252397948BBA636C738C566AF826D6EB /* AAATest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AAATest/AAATest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAATest/AAATest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AAATest/AAATest.modulemap";
+				PRODUCT_MODULE_NAME = AAATest;
+				PRODUCT_NAME = AAATest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		39CA4D000EB2076AE6B1314B6A2C5D20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64C4CC3FCFBE2522934A77701D7D8C50 /* Pods-AAATest_Example.release.xcconfig */;
@@ -595,37 +631,6 @@
 			};
 			name = Debug;
 		};
-		A1B2823D66B36AE17D1EA2A87DEFF6E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ACCDB414F8A202DB5E24D058EC85A8D /* AAATest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AAATest/AAATest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AAATest/AAATest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AAATest/AAATest.modulemap";
-				PRODUCT_MODULE_NAME = AAATest;
-				PRODUCT_NAME = AAATest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A47AEE4A570CCE2638E108F098022023 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19E6962C8A8DF4A430B99E0FD4A9939B /* Pods-AAATest_Example.debug.xcconfig */;
@@ -653,6 +658,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1D01105521C47EB7BA196252A4BCDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252397948BBA636C738C566AF826D6EB /* AAATest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AAATest/AAATest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAATest/AAATest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AAATest/AAATest.modulemap";
+				PRODUCT_MODULE_NAME = AAATest;
+				PRODUCT_NAME = AAATest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -693,55 +729,23 @@
 			};
 			name = Release;
 		};
-		D81A12C72838FC44BD60A93B859C75A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ACCDB414F8A202DB5E24D058EC85A8D /* AAATest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AAATest/AAATest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AAATest/AAATest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AAATest/AAATest.modulemap";
-				PRODUCT_MODULE_NAME = AAATest;
-				PRODUCT_NAME = AAATest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F9B8395864AB5528C12DD75697619A9 /* Build configuration list for PBXNativeTarget "AAATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D01105521C47EB7BA196252A4BCDF2 /* Debug */,
+				02257311DB3ACB504783095A07B2B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7EB99CC8470F6552E0559A2B7788CA40 /* Build configuration list for PBXNativeTarget "AAATest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1B2823D66B36AE17D1EA2A87DEFF6E9 /* Debug */,
-				D81A12C72838FC44BD60A93B859C75A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
