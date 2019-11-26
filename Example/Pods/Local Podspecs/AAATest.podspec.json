@@ -1,0 +1,22 @@
+{
+  "name": "AAATest",
+  "version": "0.1.0",
+  "summary": "A short description of AAATest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1727370803/AAATest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1727370803": "xchu@i9i8.com"
+  },
+  "source": {
+    "git": "https://github.com/1727370803/AAATest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AAATest/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module AAATest {
+  umbrella header "AAATest-umbrella.h"
+
+  export *
+  module * { export * }
+}

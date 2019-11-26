@@ -1,0 +1,16 @@
+PODS:
+  - AAATest (0.1.0)
+
+DEPENDENCIES:
+  - AAATest (from `../`)
+
+EXTERNAL SOURCES:
+  AAATest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AAATest: aff1cb781bf2d6f8f6a94d3cd152e448fea4f45d
+
+PODFILE CHECKSUM: 0527c409ae2df94559d364613d19ac506d5af313
+
+COCOAPODS: 1.8.4

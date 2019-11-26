@@ -1,0 +1,6 @@
+framework module Pods_AAATest_Tests {
+  umbrella header "Pods-AAATest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
